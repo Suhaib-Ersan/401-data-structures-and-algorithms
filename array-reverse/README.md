@@ -9,3 +9,5 @@ trying to do this without any built-in methods was tough, until I found out you 
 
 
 [JavaScrip file link to github ➜](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/array-reverse/array-reverse.js)
+
+[Go to table of contents](https://suhaib-ersan.github.io/401-data-structures-and-algorithms)
