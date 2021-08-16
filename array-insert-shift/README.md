@@ -8,3 +8,5 @@ once again, not using any built-in functions can be pretty hard, but I feel this
 
 
 [JavaScrip file link to github ➜](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/array-insert-shift/array-insert-shift.js)
+
+[Go to table of contents](https://suhaib-ersan.github.io/401-data-structures-and-algorithms)
