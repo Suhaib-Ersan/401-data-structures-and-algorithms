@@ -1,5 +1,5 @@
 "use strcit";
-const Node = require("./node");
+const Node = require("./node.js");
 
 class LinkedList {
   constructor() {
@@ -11,7 +11,13 @@ class LinkedList {
     const node = new Node(value);
     if (!this.head) {
       this.head = node;
+      if (!this.tail) {
+        this.tail = node;
+      }
       return this;
+    }
+    if (!this.tail) {
+      this.tail = node;
     }
     let current = this.head;
     this.head = node;
@@ -22,7 +28,7 @@ class LinkedList {
   // check if the value exists in the linked list, boolean
   includes(value) {
     let current = this.head;
-    while (current.next) {
+    while (current) {
       if (current.value === value) {
         return true;
       }
@@ -33,15 +39,15 @@ class LinkedList {
   // Returns a string representing all the values in the Linked List, formatted as: "{ a } -> { b } -> { c } -> NULL"
   toString() {
     function stringFor(val) {
-      return `{ ${val} } -> `
+      return `{ ${val} } -> `;
     }
     let string = "";
     let current = this.head;
     while (current.next) {
-      string = string + stringFor(current.value)
+      string = string + stringFor(current.value);
       current = current.next;
     }
-    string = string + "NULL"
+    string = string + "NULL";
     return string;
   }
   // adds a new node and puts it at the tail
@@ -49,6 +55,9 @@ class LinkedList {
     const node = new Node(value);
     if (!this.head) {
       this.head = node;
+      if (!this.tail) {
+        this.tail = node;
+      }
       return this;
     }
 
@@ -62,7 +71,7 @@ class LinkedList {
     return this;
   }
   // adds a new node and puts it before the target value;
-  insertBefore(value, target){
+  insertBefore(value, target) {
     const node = new Node(value);
 
     let current = this.head;
@@ -77,8 +86,8 @@ class LinkedList {
 
     return this;
   }
-  insertAfter(value, target){
-    const node = new Node(value);https://alqudscollege-my.sharepoint.com/:f:/g/personal/advtech_ltuc_com/EoyzJNQ_nkJHv5uliBZryjIBlCaTr83eaKOsymR4bckhOA?e=SkRH9C
+  insertAfter(value, target) {
+    const node = new Node(value);
 
     let current = this.head;
     while (current.next) {
@@ -91,8 +100,11 @@ class LinkedList {
     }
 
     return this;
-
   }
 }
+// let newThing = new LinkedList();
+// console.log(newThing);
+// newThing.insert(1);
+// console.log(newThing);
 
 module.exports = LinkedList;
