@@ -21,7 +21,7 @@ function BinarySearch(arr, val) {
     // console.log(newNum);
     return newNum;
   }
-  let arrayIndexLog = [];
+  // let arrayIndexLog = [];
   // let x = 0;
   // backUpArr.forEach(element => {
   //   arrayIndexLog.push(x);
@@ -41,7 +41,7 @@ function BinarySearch(arr, val) {
     // console.log(`${backUpArr[target]} > ${val}`,backUpArr[target] > val);
     if (minIdxTest === maxIdxTest) {
 
-      console.log("ran");
+      // console.log("ran");
       if (backUpArr[minIdxTest] === val) {
         indexToBeReturned = minIdxTest;
       }
@@ -75,8 +75,11 @@ function BinarySearch(arr, val) {
   return indexToBeReturned;
 }
 
-console.log(BinarySearch([4, 8, 15, 16, 23, 42, 75],4));
-console.log(BinarySearch([4, 8, 15, 16, 23, 42, 75, 80, 85, 90, 105, 150, 200, 250, 347, 800, 1500], 800));
+module.exports = {
+  BinarySearch,
+}
+// console.log(BinarySearch([4, 8, 15, 16, 23, 42, 75],4));
+// console.log(BinarySearch([4, 8, 15, 16, 23, 42, 75, 80, 85, 90, 105, 150, 200, 250, 347, 800, 1500], 800));
 
 // let arraaa = [4, 8, 15, 16, 23, 42];
 // console.log(arraaa.length);
