@@ -1,0 +1,23 @@
+{
+  "name": "401-data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "| Table of Contents | | - | | [class-01-array-reverse](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-01-array-reverse) | | [class-02-array-insert-shift](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-02-array-insert-shift) | | [class-03-array-binary-search](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-03-array-binary-search) | | [class-04-matrix-sum](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-04-matrix-sum) | | [class-05-linked-list](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-05-linked-list) |",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}

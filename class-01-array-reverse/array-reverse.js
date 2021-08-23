@@ -1,17 +1,14 @@
 "use strict";
 
 let arr = [1, 2, 3, 4, 5];
-function arrayLength(funArr2) {
-  var length = 0;
-  while (funArr2[length] !== undefined) {
-    length++;
-  }
-  return length;
-}
+
 function reverseArray(funArr) {
+  if (funArr.length === 0) {
+    return [];
+  }
   let newArr = [0];
   let z = 0;
-  for (let i = arrayLength(funArr) - 1; i >= 0; i--) {
+  for (let i = funArr.length - 1; i >= 0; i--) {
     // console.log(`newArr[z] is ${newArr[z]} AND arr[i] is ${funArr[i]}`);
     newArr[z] = funArr[i];
     // console.log(`AFTER, newArr[z] is ${newArr[z]} AND arr[i] is ${funArr[i]}`);
@@ -21,7 +18,8 @@ function reverseArray(funArr) {
 }
 let finalArr = reverseArray(arr);
 
-console.log(finalArr);
+module.exports = { reverseArray };
+// console.log(finalArr);
 
 // function reverseArrayInPlace(arr2) {
 //   var half = Math.floor(arr2.length / 2);

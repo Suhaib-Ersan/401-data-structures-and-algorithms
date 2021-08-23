@@ -6,16 +6,18 @@ function matrixSum(arr) {
   let result = 0;
   for (let i = 0; i < arr.length; i++) {
     if (Array.isArray(arr[i])) {
-      newArr[newArr.length + 1] = matrixSum(arr[i]);
-    } else {
-      wasChanged = true;
+      newArr[newArr.length] = matrixSum(arr[i]);
+    } else if (typeof arr[i] === "number") {
+      console.log(`${typeof arr[i]} ${arr[i]}`);
       result = result + arr[i];
+      wasChanged = true;
     }
   }
-  if (wasChanged = true) {
-    newArr[newArr.length + 1] = result;
+  console.log(result);
+  if ((wasChanged)) {
+    newArr[newArr.length] = result;
   }
-  
+
   return newArr;
 }
 
@@ -28,11 +30,11 @@ console.log(
 );
 // expected: [6, 15, 18]
 
-console.log(
-  matrixSum([
-    [0, 1, 5],
-    [-4, 7, 2],
-    [-3, 12, 11],
-  ])
-);
+// console.log(
+//   matrixSum([
+//     [0, 1, 5],
+//     [-4, 7, 2],
+//     [-3, 12, 11],
+//   ])
+// );
 // expected: [6, 5, 20]
