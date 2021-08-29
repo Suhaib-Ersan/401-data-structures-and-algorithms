@@ -1,9 +1,6 @@
 # stack-and-queue
 Using a Linked List as the underlying data storage mechanism, implement both a Stack and a Queue
 
-## Whiteboard Process
-[stack-and-queue image link](https://i.imgur.com/RUAIiWz.png)
-
 ## Approach & Efficiency
 Stack: 
 `peek()` is O(1)
