@@ -23,10 +23,8 @@ class linkedListKth extends linkedList {
       return "number can't be higher than the length of the list";
     }
     for (let i = 0; i < finalCount; i++) {
-      console.log(item);
       item = item.next;      
     }
-    console.log(item);
     return item.value;
   }
 }
