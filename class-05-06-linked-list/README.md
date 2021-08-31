@@ -4,13 +4,6 @@ Create a Node class that has properties for the value stored in the Node, and a 
 [linked-list-insertions image link](https://i.imgur.com/XE9yjcA.png)
 ## Approach & Efficiency
 
-
-
-[JavaScrip file link to github ➜](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-04-matrix-sum/matrix-sum.js)
-
-[Go to table of contents](https://suhaib-ersan.github.io/401-data-structures-and-algorithms)
-
-
 # linked-list-insertions
 add functions to the linked list,
 - append, which adds a new node with the given value to the end of the list
@@ -22,6 +15,6 @@ add functions to the linked list,
 
 
 
-[JavaScrip file link to github ➜](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-04-matrix-sum/matrix-sum.js)
+[JavaScrip file link to github ➜](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-05-06-linked-list/linked-list.js)
 
 [Go to table of contents](https://suhaib-ersan.github.io/401-data-structures-and-algorithms)
