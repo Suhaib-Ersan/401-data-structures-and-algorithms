@@ -1,7 +1,6 @@
 "use strict";
 
 const LinkedListKth = require("./linked-list-kth");
-console.log(LinkedListKth);
 
 describe("Linked List Kth testing", () => {
   it("should be able to check the last value", async () => {

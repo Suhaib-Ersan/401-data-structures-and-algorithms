@@ -38,17 +38,22 @@ class LinkedList {
   }
   // Returns a string representing all the values in the Linked List, formatted as: "{ a } -> { b } -> { c } -> NULL"
   toString() {
-    function stringFor(val) {
+    if (!this.head) {
+      return "no nodes in list"
+    } else {
+      function stringFor(val) {
       return `{ ${val} } -> `;
     }
     let string = "";
     let current = this.head;
-    while (current.next) {
+    while (current) {
       string = string + stringFor(current.value);
       current = current.next;
     }
     string = string + "NULL";
     return string;
+    }
+    
   }
   // adds a new node and puts it at the tail
   append(value) {
