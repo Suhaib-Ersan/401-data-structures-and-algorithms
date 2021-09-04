@@ -10,3 +10,4 @@
 | [class-07-linked-list-kth](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-07-linked-list-kth) |
 | [class-08-linked-list-zip](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-08-linked-list-zip) |
 | [class-10-stack-and-queue](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-10-stack-and-queue) |
+| [class-11-stack-queue-pseudo](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-11-stack-queue-pseudo) |
