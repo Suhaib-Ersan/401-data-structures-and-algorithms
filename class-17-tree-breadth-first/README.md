@@ -7,7 +7,7 @@ Find the maximum value stored in the tree. You can assume that the values stored
 
 ## whiteboard
 
-[link to whiteboard image]()
+[link to whiteboard image](https://i.imgur.com/12lNCPa.png)
 
 
 [JavaScrip file link to github ➜](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-17-tree-breadth-first/tree-breadth-first.js)
