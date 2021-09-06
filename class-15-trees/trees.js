@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 class Tree {
   constructor() {
     this.root = null;
