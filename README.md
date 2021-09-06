@@ -12,3 +12,6 @@
 | [class-10-stack-and-queue](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-10-stack-and-queue) |
 | [class-11-stack-queue-pseudo](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-11-stack-queue-pseudo) |
 | [class-12-stack-queue-animal-shelter](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-12-stack-queue-animal-shelter) |
+| [class-13-stack-queue-brackets](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-13-stack-queue-brackets) |
+| [class-14-](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-14-) |
+| [class-15-trees](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-15-trees) | 
