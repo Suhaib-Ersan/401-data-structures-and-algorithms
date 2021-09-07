@@ -13,7 +13,11 @@ class Tree {
       if (leaf.left) preOrderTraverse(leaf.left);
       if (leaf.right) preOrderTraverse(leaf.right);
     };
-    preOrderTraverse(this.root);
+    if (this.root) {
+      preOrderTraverse(this.root);
+    } else {
+      return null;
+    }
     return final;
   }
 
@@ -25,7 +29,12 @@ class Tree {
       final.push(leaf.value);
       if (leaf.right) inOrderTraverse(leaf.right);
     };
-    inOrderTraverse(this.root);
+    if (this.root) {
+      inOrderTraverse(this.root);
+    } else {
+      return null;
+    }
+
     return final;
   }
 
@@ -37,7 +46,12 @@ class Tree {
       if (leaf.right) postOrderTraverse(leaf.right);
       final.push(leaf.value);
     };
-    postOrderTraverse(this.root);
+    if (this.root) {
+      postOrderTraverse(this.root);
+    } else {
+      return null;
+    }
+
     return final;
   }
 }

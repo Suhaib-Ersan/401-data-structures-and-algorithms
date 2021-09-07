@@ -17,3 +17,4 @@
 | [class-15-trees](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-15-trees) | 
 | [class-16-tree-max](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-16-tree-max) |
 | [class-17-tree-breadth-first](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-17-tree-breadth-first) |
+| [class-18-tree-fizz-buzz](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-18-tree-fizz-buzz) |
