@@ -1,48 +1,55 @@
 "use strict";
 
-const { fizzBuzzTree, Tree } = require("./tree-fizz-buzz.js");
+const { fizzBuzzTree, kAryTreeManual } = require("./tree-fizz-buzz.js");
+let Node = require("./node.js");
 
 describe("Tree Breadth First", () => {
   it("should instantiate a new Tree", () => {
-    let tree = new Tree();
-    expect(tree instanceof Tree).toBeTruthy();
+    let tree = new kAryTreeManual();
+    expect(tree instanceof kAryTreeManual).toBeTruthy();
   });
 
   it("should return the correct 10-element fizzbuzz tree", () => {
-    let tree = new Tree();
+    let firstNode = new Node(9);
+    let secondNode = new Node(5);
+    let thirdNode = new Node(15);
+    let fourthNode = new Node(4);
+    let fifthNode = new Node(25);
+    let sixthNode = new Node(36);
+    let seventhNode = new Node(22);
+    let eighthNode = new Node(11);
+    let ninthNode = new Node(10);
+    let tenthNode = new Node(1);
 
-    tree.add(9);
-    tree.add(5);
-    tree.add(15);
-    tree.add(4);
-    tree.add(25);
-    tree.add(36);
-    tree.add(22);
-    tree.add(11);
-    tree.add(10);
-    tree.add(1);
+    firstNode.children.push(secondNode, thirdNode, fourthNode);
+    secondNode.children.push(fifthNode, sixthNode);
+    fourthNode.children.push(eighthNode);
+    sixthNode.children.push(seventhNode, ninthNode, tenthNode);
 
-    expect(fizzBuzzTree(tree).preOrder()).toEqual(["Fizz", "Buzz", "4", "1", "FizzBuzz", "11", "Buzz", "Buzz", "22", "Fizz"]);
+    let tree = new kAryTreeManual(firstNode);
+
+    expect(fizzBuzzTree(tree).finArr).toEqual(["Fizz", "Buzz", "Buzz", "Fizz", "22", "Buzz", "1", "FizzBuzz", "4", "11"]);
   });
   it("should return the correct 3-element fizzbuzz tree", () => {
-    let tree = new Tree();
+    let firstNode = new Node(9);
+    let secondNode = new Node(5);
+    let thirdNode = new Node(1);
 
-    tree.add(9);
-    tree.add(2);
-    tree.add(15);
+    firstNode.children.push(secondNode, thirdNode);
 
-    expect(fizzBuzzTree(tree).preOrder()).toEqual(["Fizz", "2", "FizzBuzz"]);
+    let tree = new kAryTreeManual(firstNode);
+
+    expect(fizzBuzzTree(tree).finArr).toEqual(["Fizz", "Buzz", "1"]);
   });
   it("should return the correct 1-element fizzbuzz tree", () => {
-    let tree = new Tree();
+    let firstNode = new Node(9);
 
-    tree.add(9);
+    let tree = new kAryTreeManual(firstNode);
 
-    expect(fizzBuzzTree(tree).preOrder()).toEqual(["Fizz"]);
+    expect(fizzBuzzTree(tree).finArr).toEqual(["Fizz"]);
   });
   it("should return the correct 0-element fizzbuzz tree", () => {
-    let tree = new Tree();
-
-    expect(fizzBuzzTree(tree).preOrder()).toEqual(null);
+    let tree = new kAryTreeManual();
+    expect(fizzBuzzTree(tree)).toBeNull();
   });
 });
