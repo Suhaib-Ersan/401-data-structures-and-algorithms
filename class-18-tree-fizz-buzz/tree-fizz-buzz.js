@@ -1,29 +1,39 @@
 "use strict";
 
-const Tree = require("../class-16-tree-max/tree-max.js");
+const kAryTreeManual = require("./kary-tree.js");
 
 function fizzBuzzTree(tree) {
+  if (!tree.root) return null;
   let finTree = tree;
-
+  let finArr = [];
 
   function fizzBuzz(leaf) {
-    if ((leaf.value % 3 === 0) && (leaf.value % 5 === 0)) {
-      leaf.value = 'FizzBuzz';
+    if (leaf.value % 3 === 0 && leaf.value % 5 === 0) {
+      leaf.value = "FizzBuzz";
     } else if (leaf.value % 3 === 0) {
-      leaf.value = 'Fizz';
+      leaf.value = "Fizz";
     } else if (leaf.value % 5 === 0) {
-      leaf.value = 'Buzz';
+      leaf.value = "Buzz";
     } else {
       leaf.value = `${leaf.value}`;
     }
-    
-    if (leaf.left) fizzBuzz(leaf.left);
-    if (leaf.right) fizzBuzz(leaf.right);
-  };
+
+    for (let i = 0; i < leaf.children.length; i++) {
+      fizzBuzz(leaf.children[i]);
+    }
+  }
+  function order(leaf) {
+    finArr.push(leaf.value);
+    for (let i = 0; i < leaf.children.length; i++) {
+      order(leaf.children[i]);
+    }
+  }
+
   if (finTree.root) {
     fizzBuzz(finTree.root);
-  }
-  return finTree;
+    order(finTree.root);
+  } 
+  return { finTree, finArr };
 }
 
-module.exports = {fizzBuzzTree, Tree};
+module.exports = { fizzBuzzTree, kAryTreeManual };
