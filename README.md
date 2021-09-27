@@ -19,11 +19,7 @@
 | [class-17-tree-breadth-first](https://suhaib-ersan.github.io/401-data-structures-and-algorithms/class-17-tree-breadth-first) |
 | [class-18-tree-fizz-buzz](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-18-tree-fizz-buzz) |
 | [insertion-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-26-insertion-sort) |
+| [merge-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-27-merge-sort) |
+| [quick-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-28-quick-sort) |
+| [hash-table](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-29-hash-table) |
 | [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
-| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
-| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
-| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
-
-
-
-insertion-sort
