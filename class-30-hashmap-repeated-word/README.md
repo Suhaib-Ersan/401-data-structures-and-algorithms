@@ -10,9 +10,6 @@ Return: string
 ## Approach & Efficiency
 | Approach | Efficiency |
 | - | - |
-| Add | O(n) time and O(1) space. |
-| get | O(1) time and O(1) space. |
-| contains | O(1) time and O(1) space. |
-| hash | O(1) time and O(1) space. |
+| repeatedWord | O(n) time and O(n) space. |
 
 [Go to table of contents](https://suhaib-ersan.github.io/401-data-structures-and-algorithms)
