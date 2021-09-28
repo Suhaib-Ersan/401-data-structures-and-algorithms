@@ -12,6 +12,6 @@ Find all values found to be in 2 binary trees
 ## Approach & Efficiency
 | Approach | Efficiency |
 | - | - |
-| repeatedWord | O(n) time and O(n) space. |
+| hashmapTreeIntersection | O(n) time and O(n) space. |
 
 [Go to table of contents](https://suhaib-ersan.github.io/401-data-structures-and-algorithms)
