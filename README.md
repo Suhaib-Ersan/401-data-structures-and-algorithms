@@ -22,4 +22,4 @@
 | [merge-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-27-merge-sort) |
 | [quick-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-28-quick-sort) |
 | [hash-table](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-29-hash-table) |
-| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
+| [hashmap-repeated-word](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-30-hashmap-repeated-word) |
