@@ -21,5 +21,11 @@
 | [insertion-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-26-insertion-sort) |
 | [merge-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-27-merge-sort) |
 | [quick-sort](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-28-quick-sort) |
-| [hash-table](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-29-hash-table) |
-| [hashmap-repeated-word](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-30-hashmap-repeated-word) |
+| [hash-table](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-30-hash-table) |
+| [hashmap-repeated-word](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-31-hashmap-repeated-word) |
+| [hashmap-tree-intersection](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-32-hashmap-tree-intersection) |
+| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
+| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
+| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
+| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
+| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
