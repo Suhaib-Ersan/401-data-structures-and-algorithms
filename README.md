@@ -25,7 +25,7 @@
 | [hashmap-repeated-word](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-31-hashmap-repeated-word) |
 | [hashmap-tree-intersection](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-32-hashmap-tree-intersection) |
 | [hashmap-left-join](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-33-hashmap-left-join) |
-| [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
+| [graph](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-35-graph) |
 | [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
 | [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
 | [](https://github.com/Suhaib-Ersan/401-data-structures-and-algorithms/blob/main/class-) |
